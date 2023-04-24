@@ -1,0 +1,321 @@
+INFO - 2023-03-11 04:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-03-11 04:17:39 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Models\adminmod.php on line 25.
+ 1 APPPATH\Models\adminmod.php(25): json_decode(null)
+ 2 APPPATH\Controllers\Home.php(322): App\Models\adminmod->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->blog()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 04:17:39 --> Attempt to read property "un" on null
+in APPPATH\Models\adminmod.php on line 26.
+ 1 APPPATH\Models\adminmod.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "un" on null', 'APPPATH\\Models\\adminmod.php', 26)
+ 2 APPPATH\Controllers\Home.php(322): App\Models\adminmod->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->blog()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-11 04:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-11 04:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-03-11 04:18:07 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 274.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->admin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-11 04:18:07 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 275.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->admin()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-11 04:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-11 04:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-11 04:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-11 05:17:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:17:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:17:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:17:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:17:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:17:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:18:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:18:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:18:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:23:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:23:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:23:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:24:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:24:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:24:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:24:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:24:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:24:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\journaldetail.php on line 17.
+ 1 APPPATH\Views\user\pages\journaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(84): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:33:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:33:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:33:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:35:01 --> Undefined variable $ec
+in APPPATH\Views\user\pages\journaldetail.php on line 94.
+ 1 APPPATH\Views\user\pages\journaldetail.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ec', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(86): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('Eurasian Experiment Journal of Biological Sciences (EEJBS)')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:35:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:35:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:35:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:37:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 05:37:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('assets', 'images', 'dashboard', 'home_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-11 05:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-11 05:49:18 --> Invalid file: "user/include/related.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/include/related.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('user/include/related.php', null, true)
+ 3 APPPATH\Views\user\pages\journaldetail.php(79): CodeIgniter\View\View->include('user/include/related.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 7 APPPATH\Controllers\Home.php(86): view('user/pages/journaldetail', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('Eurasian Experiment Journal of Humanities and Social Sciences (EEJHSS)')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 06:53:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pages\news.php on line 17.
+ 1 APPPATH\Views\user\pages\news.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pages\\news.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/news', [], true)
+ 5 APPPATH\Controllers\Home.php(103): view('user/pages/news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->news('8')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

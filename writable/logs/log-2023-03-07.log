@@ -1,0 +1,463 @@
+CRITICAL - 2023-03-07 04:05:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\journal.php(16): CodeIgniter\Model->__get('dbp')
+ 4 APPPATH\Controllers\Home.php(16): App\Models\journal->getalljournals()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:05:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\journal.php(16): CodeIgniter\Model->__get('dbp')
+ 4 APPPATH\Controllers\Home.php(16): App\Models\journal->getalljournals()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:07:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\journal.php(16): CodeIgniter\Model->__get('dbp')
+ 4 APPPATH\Controllers\Home.php(16): App\Models\journal->getalljournals()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:10:02 --> Undefined variable $jorunals
+in APPPATH\Views\index.php on line 39.
+ 1 APPPATH\Views\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jorunals', 'APPPATH\\Views\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:29:55 --> Undefined variable $journals
+in APPPATH\Views\user\include\footer.php on line 54.
+ 1 APPPATH\Views\user\include\footer.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $journals', 'APPPATH\\Views\\user\\include\\footer.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\include\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/include/footer', [], true)
+ 5 APPPATH\Controllers\Home.php(96): view('user/include/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:30:02 --> Undefined variable $journals
+in APPPATH\Views\user\include\footer.php on line 54.
+ 1 APPPATH\Views\user\include\footer.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $journals', 'APPPATH\\Views\\user\\include\\footer.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\include\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/include/footer', [], true)
+ 5 APPPATH\Controllers\Home.php(118): view('user/include/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->instructions()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:30:28 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:31:56 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:33:59 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:34:00 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:35:23 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:36:04 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:36:08 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:36:10 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:36:33 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:36:44 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:36:56 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:37:50 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:38:00 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:38:48 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:43:00 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:44:59 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:45:05 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:45:46 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:45:55 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:49:49 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:51:21 --> Undefined variable $head
+in APPPATH\Views\user\pages\terms.php on line 1.
+ 1 APPPATH\Views\user\pages\terms.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $head', 'APPPATH\\Views\\user\\pages\\terms.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\terms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/terms', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('user/pages/terms')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:51:29 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:51:38 --> Undefined variable $head
+in APPPATH\Views\user\pages\terms.php on line 1.
+ 1 APPPATH\Views\user\pages\terms.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $head', 'APPPATH\\Views\\user\\pages\\terms.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\terms.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/terms', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('user/pages/terms')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:51:57 --> Too few arguments to function App\Controllers\Home::journaldetail(), 0 passed in C:\doc\htdocs\eej\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:53:29 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 04:53:32 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 05:14:20 --> Undefined variable $journal
+in APPPATH\Views\user\pages\journaldetail.php on line 16.
+ 1 APPPATH\Views\user\pages\journaldetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $journal', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(86): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('Eurasian Experiment Journal of Public Health (EEJPH)')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 05:43:58 --> Undefined array key 1
+in APPPATH\Models\journal.php on line 52.
+ 1 APPPATH\Models\journal.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\journal.php', 52)
+ 2 APPPATH\Models\journal.php(30): App\Models\journal->converteditorsToArray('Mutch G. D.
+Professor, Department of Obstetrics and Gynecology
+Washington University School of Medicine, USA.
+
+Nobuhiko Suganuma
+Professor, Department of Human Health Sciences
+Kyoto University, Japan.
+Hiroko Watanabe
+Professor, Department of Children and Women\'s Health
+Osaka University Graduate School of Medicine, Japan.
+Gianluca Serafini
+Professor, Department of Neurosciences, San Martino Hospital
+University of Genoa, Italy.
+Ospan A Mynbaev
+Professor, Department of Medicine
+Moscow State University of Medicine and Dentitry, Russia.
+Mathurin Tejiokem
+Epidemiology and Public Health Service, Center pasteur of Cameroon
+Cameroon.
+Diana H Arabiat
+Associate Professor, Maternal and Child Health Department
+The University of Jordan, Jordan
+
+Robin Mellecker
+Institute of Human Performance
+The University of Hong Kong, Hong Kong
+Saurabh RamBihariLal Shrivastava
+Professor, Department of Community Medicine, Shri Sathya Sai Medical College & Research Institute, Sri Balaji Vidyapeeth (SBV) Deemed to be University, Tamilnadu, India.
+
+Bashir A. Lwaleed
+Professor, Faculty of Health Sciences
+University of Southampton Southampton, General Hospital, United Kingdom.
+
+Linda Roussel
+Professor, School of Nursing
+The University of Alabama at Birmingham, USA
+
+Sam Cheol Kim
+Associate Professor, Department of Family Practice and Community Medicine
+Chosun University College of Medicine/Chosun University Hospital, Korea.
+
+Dalia Ahmad Nigm
+                                           Department of Clinical Pathology Assiut University, Egypt.
+
+Otasowie Daniel Osunde
+Professor
+University of Calabar, Teaching Hospital Calabar, Nigeria.
+Rujuta A. Katkar
+Assistant Professor
+The University of Texas Health Science Center, USA.
+')
+ 3 APPPATH\Controllers\Home.php(80): App\Models\journal->byslug('EURASIAN EXPERIMENT JOURNAL OF MEDICINE AND MEDICAL SCIENCES (EEJMMS)')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('EURASIAN EXPERIMENT JOURNAL OF MEDICINE AND MEDICAL SCIENCES (EEJMMS)')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 05:47:11 --> Undefined variable $str
+in APPPATH\Models\journal.php on line 35.
+ 1 APPPATH\Models\journal.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $str', 'APPPATH\\Models\\journal.php', 35)
+ 2 APPPATH\Models\journal.php(30): App\Models\journal->converteditorsToArray('Mutch G. D.
+Professor, Department of Obstetrics and Gynecology
+Washington University School of Medicine, USA.
+
+Nobuhiko Suganuma
+Professor, Department of Human Health Sciences
+Kyoto University, Japan.
+Hiroko Watanabe
+Professor, Department of Children and Women\'s Health
+Osaka University Graduate School of Medicine, Japan.
+Gianluca Serafini
+Professor, Department of Neurosciences, San Martino Hospital
+University of Genoa, Italy.
+Ospan A Mynbaev
+Professor, Department of Medicine
+Moscow State University of Medicine and Dentitry, Russia.
+Mathurin Tejiokem
+Epidemiology and Public Health Service, Center pasteur of Cameroon
+Cameroon.
+Diana H Arabiat
+Associate Professor, Maternal and Child Health Department
+The University of Jordan, Jordan
+
+Robin Mellecker
+Institute of Human Performance
+The University of Hong Kong, Hong Kong
+Saurabh RamBihariLal Shrivastava
+Professor, Department of Community Medicine, Shri Sathya Sai Medical College & Research Institute, Sri Balaji Vidyapeeth (SBV) Deemed to be University, Tamilnadu, India.
+
+Bashir A. Lwaleed
+Professor, Faculty of Health Sciences
+University of Southampton Southampton, General Hospital, United Kingdom.
+
+Linda Roussel
+Professor, School of Nursing
+The University of Alabama at Birmingham, USA
+
+Sam Cheol Kim
+Associate Professor, Department of Family Practice and Community Medicine
+Chosun University College of Medicine/Chosun University Hospital, Korea.
+
+Dalia Ahmad Nigm
+                                           Department of Clinical Pathology Assiut University, Egypt.
+
+Otasowie Daniel Osunde
+Professor
+University of Calabar, Teaching Hospital Calabar, Nigeria.
+Rujuta A. Katkar
+Assistant Professor
+The University of Texas Health Science Center, USA.
+')
+ 3 APPPATH\Controllers\Home.php(80): App\Models\journal->byslug('EURASIAN EXPERIMENT JOURNAL OF MEDICINE AND MEDICAL SCIENCES (EEJMMS)')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('EURASIAN EXPERIMENT JOURNAL OF MEDICINE AND MEDICAL SCIENCES (EEJMMS)')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 05:47:31 --> Array to string conversion
+in APPPATH\Views\user\pages\journaldetail.php on line 48.
+ 1 APPPATH\Views\user\pages\journaldetail.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\user\\pages\\journaldetail.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\journaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/journaldetail', [], true)
+ 5 APPPATH\Controllers\Home.php(87): view('user/pages/journaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('EURASIAN EXPERIMENT JOURNAL OF MEDICINE AND MEDICAL SCIENCES (EEJMMS)')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 05:50:50 --> Undefined array key 1
+in APPPATH\Models\journal.php on line 52.
+ 1 APPPATH\Models\journal.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\journal.php', 52)
+ 2 APPPATH\Models\journal.php(30): App\Models\journal->converteditorsToArray('Mutch G. D.
+Professor, Department of Obstetrics and Gynecology
+Washington University School of Medicine, USA.
+
+Nobuhiko Suganuma
+Professor, Department of Human Health Sciences
+Kyoto University, Japan.
+Hiroko Watanabe
+Professor, Department of Children and Women\'s Health
+Osaka University Graduate School of Medicine, Japan.
+Gianluca Serafini
+Professor, Department of Neurosciences, San Martino Hospital
+University of Genoa, Italy.
+Ospan A Mynbaev
+Professor, Department of Medicine
+Moscow State University of Medicine and Dentitry, Russia.
+Mathurin Tejiokem
+Epidemiology and Public Health Service, Center pasteur of Cameroon
+Cameroon.
+Diana H Arabiat
+Associate Professor, Maternal and Child Health Department
+The University of Jordan, Jordan
+
+Robin Mellecker
+Institute of Human Performance
+The University of Hong Kong, Hong Kong
+Saurabh RamBihariLal Shrivastava
+Professor, Department of Community Medicine, Shri Sathya Sai Medical College & Research Institute, Sri Balaji Vidyapeeth (SBV) Deemed to be University, Tamilnadu, India.
+
+Bashir A. Lwaleed
+Professor, Faculty of Health Sciences
+University of Southampton Southampton, General Hospital, United Kingdom.
+
+Linda Roussel
+Professor, School of Nursing
+The University of Alabama at Birmingham, USA
+
+Sam Cheol Kim
+Associate Professor, Department of Family Practice and Community Medicine
+Chosun University College of Medicine/Chosun University Hospital, Korea.
+
+Dalia Ahmad Nigm
+                                           Department of Clinical Pathology Assiut University, Egypt.
+
+Otasowie Daniel Osunde
+Professor
+University of Calabar, Teaching Hospital Calabar, Nigeria.
+Rujuta A. Katkar
+Assistant Professor
+The University of Texas Health Science Center, USA.
+')
+ 3 APPPATH\Controllers\Home.php(80): App\Models\journal->byslug('EURASIAN EXPERIMENT JOURNAL OF MEDICINE AND MEDICAL SCIENCES (EEJMMS)')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->journaldetail('EURASIAN EXPERIMENT JOURNAL OF MEDICINE AND MEDICAL SCIENCES (EEJMMS)')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 05:58:36 --> Undefined variable $journals
+in APPPATH\Views\user\include\footer.php on line 54.
+ 1 APPPATH\Views\user\include\footer.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $journals', 'APPPATH\\Views\\user\\include\\footer.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\include\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/include/footer', [], true)
+ 5 APPPATH\Controllers\Home.php(104): view('user/include/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 06:02:35 --> Undefined variable $journals
+in APPPATH\Views\user\include\footer.php on line 54.
+ 1 APPPATH\Views\user\include\footer.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $journals', 'APPPATH\\Views\\user\\include\\footer.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\include\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/include/footer', [], true)
+ 5 APPPATH\Controllers\Home.php(126): view('user/include/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->instructions()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 06:02:41 --> Undefined variable $journals
+in APPPATH\Views\user\include\footer.php on line 54.
+ 1 APPPATH\Views\user\include\footer.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $journals', 'APPPATH\\Views\\user\\include\\footer.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\include\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/include/footer', [], true)
+ 5 APPPATH\Controllers\Home.php(169): view('user/include/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->terms()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

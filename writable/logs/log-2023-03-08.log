@@ -1,0 +1,464 @@
+CRITICAL - 2023-03-08 02:16:57 --> Undefined variable $journals
+in APPPATH\Views\user\include\footer.php on line 54.
+ 1 APPPATH\Views\user\include\footer.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $journals', 'APPPATH\\Views\\user\\include\\footer.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\include\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/include/footer', [], true)
+ 5 APPPATH\Controllers\Home.php(190): view('user/include/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contactus()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 03:18:00 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Test=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(45): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(201): App\Models\journal->contactemail()
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->contactus()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 03:18:00 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 03:18:00 --> 
+ERROR - 2023-03-08 03:18:56 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Test=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(45): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(201): App\Models\journal->contactemail()
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->contactus()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 03:18:56 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 03:18:56 --> 
+ERROR - 2023-03-08 03:19:56 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Test=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(45): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(201): App\Models\journal->contactemail()
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->contactus()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 03:19:56 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 03:19:56 --> 
+ERROR - 2023-03-08 03:22:34 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Test=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(45): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(201): App\Models\journal->contactemail()
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->contactus()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 03:22:34 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 03:22:34 --> 
+ERROR - 2023-03-08 03:27:10 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Test=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(45): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(201): App\Models\journal->contactemail()
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->contactus()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 03:27:10 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 03:27:10 --> 
+CRITICAL - 2023-03-08 04:23:01 --> Undefined variable $em
+in APPPATH\Views\user\pages\contactus.php on line 27.
+ 1 APPPATH\Views\user\pages\contactus.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\user\\pages\\contactus.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pages\\contactus.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/pages/contactus', [], true)
+ 5 APPPATH\Controllers\Home.php(240): view('user/pages/contactus', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contactus()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 04:23:38 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contactus()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 04:23:38 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contactus()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 04:23:40 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1730)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1730): mail('charlescalebo@g...', '=?UTF-8?Q?EEJ=2...', 'This is a multi...', 'Date: Wed, 8 Ma...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(114): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(215): App\Models\journal->contactemail('EEJ Contact Us', '\r\n            <...', false, 'AVAX C-Chain')
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->contactus()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 04:23:40 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 04:23:40 --> Invalid email address: ""
+Invalid email address: ""
+WARNING - 2023-03-08 13:35:52 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:35:52 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 13:35:52 --> Call to a member function getName() on array
+in APPPATH\Models\journal.php on line 142.
+ 1 APPPATH\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@gmail.com', 'Sent a journal', 'lskdndsn nkklnlkn with email  Sent a journal to your inbox', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:41:42 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:41:42 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 13:41:42 --> Call to a member function getName() on array
+in APPPATH\Models\journal.php on line 142.
+ 1 APPPATH\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@gmail.com', 'Sent a journal', 'lskdndsn nkklnlkn with email  Sent a journal to your inbox', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:42:38 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:42:38 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:43:36 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:43:36 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:44:12 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:44:12 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:46:11 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:46:11 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 13:46:11 --> Call to a member function send() on null
+in APPPATH\Models\journal.php on line 168.
+ 1 APPPATH\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@gmail.com', 'Sent a journal', 'lskdndsn nkklnlkn with email  Sent a journal to your inbox', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:55:44 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:55:44 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 13:55:46 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(169): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'lskdndsn nkklnl...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 13:55:46 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 13:55:46 --> 
+CRITICAL - 2023-03-08 13:55:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 106.
+ 1 APPPATH\Controllers\Home.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:57:02 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:57:02 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 13:57:04 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(169): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'lskdndsn nkklnl...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 13:57:04 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 13:57:04 --> 
+CRITICAL - 2023-03-08 13:57:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 106.
+ 1 APPPATH\Controllers\Home.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:57:41 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:57:41 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 13:57:43 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(169): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'jbibub iubibiu ...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 13:57:43 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 13:57:43 --> 
+CRITICAL - 2023-03-08 13:57:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 106.
+ 1 APPPATH\Controllers\Home.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 13:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 13:58:00 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(169): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'jbibub iubibiu ...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 13:58:00 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 13:58:00 --> 
+CRITICAL - 2023-03-08 13:58:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 106.
+ 1 APPPATH\Controllers\Home.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 14:06:06 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 14:06:06 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 14:06:09 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(169): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'adsd giugi with...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 14:06:09 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 14:06:09 --> 
+CRITICAL - 2023-03-08 14:06:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 106.
+ 1 APPPATH\Controllers\Home.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 14:08:12 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 14:08:12 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 14:08:14 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(173): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'adsd giugi with...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 14:08:14 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 14:08:14 --> 
+WARNING - 2023-03-08 14:08:35 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 14:08:35 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 14:08:37 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(173): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'adsd giugi with...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 14:08:37 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 14:08:37 --> 
+WARNING - 2023-03-08 14:11:12 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 14:11:12 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 14:11:14 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(173): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'adsd nkklnlkn w...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 14:11:14 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 14:11:14 --> 
+WARNING - 2023-03-08 14:12:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-03-08 14:12:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 14:12:11 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\doc\htdocs\eej\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\doc\\htdocs\\e...', 1735)
+#1 C:\doc\htdocs\eej\system\Email\Email.php(1735): mail('charlescalebo@g...', '=?UTF-8?Q?Sent=...', 'This is a multi...', 'Date: Wed, 8 Ma...', '-f eetest@sowse...')
+#2 C:\doc\htdocs\eej\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\doc\htdocs\eej\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\doc\htdocs\eej\app\Models\journal.php(174): CodeIgniter\Email\Email->send()
+#5 C:\doc\htdocs\eej\app\Controllers\Home.php(106): App\Models\journal->submitjournal('charlescalebo@g...', 'Sent a journal', 'adsd nkklnlkn w...', Array)
+#6 C:\doc\htdocs\eej\system\CodeIgniter.php(934): App\Controllers\Home->submitpaper()
+#7 C:\doc\htdocs\eej\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\doc\htdocs\eej\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\doc\htdocs\eej\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-08 14:12:11 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-08 14:12:11 --> 
